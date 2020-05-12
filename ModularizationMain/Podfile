@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'ModularizationMain' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -7,6 +7,9 @@ target 'ModularizationMain' do
 
   # Pods for ModularizationMain
 
+  pod 'SCHCorePart', :git => 'https://github.com/schooldave/SCHCorePart.git'
+  pod 'MGJRouter_Swift', :git => 'https://github.com/821385843/MGJRouter_Swift.git'
+  pod 'SCHBasePart', :git => 'https://github.com/schooldave/SCHBasePart.git'
   target 'ModularizationMainTests' do
     inherit! :search_paths
     # Pods for testing

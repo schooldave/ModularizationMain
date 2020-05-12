@@ -1,0 +1,6 @@
+framework module SCHCorePart {
+  umbrella header "SCHCorePart-umbrella.h"
+
+  export *
+  module * { export * }
+}

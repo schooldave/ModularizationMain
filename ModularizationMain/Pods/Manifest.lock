@@ -1,3 +1,37 @@
-PODFILE CHECKSUM: ea08bd873bd45b0d01811ba41a45927b02ae8587
+PODS:
+  - MGJRouter_Swift (0.1.2)
+  - SCHBasePart (0.0.1)
+  - SCHCorePart (0.0.1)
+
+DEPENDENCIES:
+  - MGJRouter_Swift (from `https://github.com/821385843/MGJRouter_Swift.git`)
+  - SCHBasePart (from `https://github.com/schooldave/SCHBasePart.git`)
+  - SCHCorePart (from `https://github.com/schooldave/SCHCorePart.git`)
+
+EXTERNAL SOURCES:
+  MGJRouter_Swift:
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+  SCHBasePart:
+    :git: https://github.com/schooldave/SCHBasePart.git
+  SCHCorePart:
+    :git: https://github.com/schooldave/SCHCorePart.git
+
+CHECKOUT OPTIONS:
+  MGJRouter_Swift:
+    :commit: 3413a09df3454030917adf152557d03d80be9cf8
+    :git: https://github.com/821385843/MGJRouter_Swift.git
+  SCHBasePart:
+    :commit: 48b5c5b7b1051479c9367fd9d7227c32105b45cd
+    :git: https://github.com/schooldave/SCHBasePart.git
+  SCHCorePart:
+    :commit: 15fc467b38e3976db0c50f7377a7f15866093c32
+    :git: https://github.com/schooldave/SCHCorePart.git
+
+SPEC CHECKSUMS:
+  MGJRouter_Swift: 2c44fffce704d4b83f187398d9c2b9a6baa2ae6a
+  SCHBasePart: c4cb90385690f03ff6e82aa3ce1cc196d6500640
+  SCHCorePart: a1ce4cc0cdf0ff00025c4581933668380c2d297d
+
+PODFILE CHECKSUM: 2891ab9add7f4b5260cda88c58cd269301a1752d
 
 COCOAPODS: 1.9.1
