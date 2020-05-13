@@ -12,11 +12,8 @@ SCHBasePart
 ## 整个项目的结构目录
 主工程在podfile中 pod 其余的两个组件，则这个两个组件就以第三方库的身份加载到pod目录下（组件除了相关的.swift文件还有supportFile文件）
 ## 各个部件的联通
-使用MGJRouter轻量级第三方库以url方式再以viewcontroller 来进行主工程对不同组件页面的跳转
+使用MGJRouter轻量级第三方库以url方式再以UIViewController 来进行主工程对不同组件页面的跳转
 ### *一些小的常见错误*
 1. 在组件中的.swift文件中的类声明需要添加public，才能让主工程在import 相关组件后使用旗下的类
 2. 有些人在建立组件时podspec设置中设置了较高的spec.platform 版本导致 在主工程pod install时会出现第三方库需要更高的编译环境错误，此时只需要将
 主工程的podfile文件的platform 版本设置到与spec.platform 版本相同就可以pod install了
-3. 
-4. 
-
