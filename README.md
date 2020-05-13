@@ -1,5 +1,5 @@
 # Modularization with MGJRouter with pod manager 
-#### 一下均为ios小白的见解 有表述不正确的地方麻烦告知，谢谢
+#### 以下均为ios小白的见解 有表述不正确的地方麻烦告知，谢谢
 ## 组件化工程 
 ### 分为三个部分 分别是三个独立可运行的project
 ModularizationMain
